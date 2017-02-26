@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="379dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="40dp">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="用户名"
+                android:id="@+id/ruser"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="密码"
+                android:id="@+id/rpswd"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="邀请者"
+                android:id="@+id/invitor"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="邀请码"
+                android:id="@+id/invitecode"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="验证码"
+                    android:paddingBottom="20dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/rvfcde"
+                    android:text=""/>
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/register"
+                    android:id="@+id/rvfcdd" />
+                <ImageButton
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="10dp"
+                    android:background="#00000000"
+                    android:src="@drawable/reclear"
+                    android:id="@+id/recbutton" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.design.widget.TextInputLayout>
+    <ImageButton
+        android:layout_width="150dp"
+        android:scaleType="fitXY"
+        android:layout_height="50dp"
+        android:src="@drawable/register"
+        android:background="#00000000"
+        android:id="@+id/registbutton"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:layout_weight="0.41" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">deepnote</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_collected_note">我的收藏</string>
+    <string name="title_activity_note_chart">发现</string>
+    <string-array name="note_sort_list_titles">
+        <item>最近更新日期</item>
+        <item>首次创建日期</item>
+        <item>按字母顺序，从A到Z</item>
+        <item>按字母顺序，从Z到A</item>
+    </string-array>
+    <string-array name="note_sort_list_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+    <string-array name="yorn_titles">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="yorn_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

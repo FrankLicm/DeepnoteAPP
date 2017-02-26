@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ItemArray">
+        <item>写笔记</item>
+        <item>增加分类</item>
+    </array>
+</resources>

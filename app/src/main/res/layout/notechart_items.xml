@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:id="@+id/kindpicture"
+        android:layout_height="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/kindpicture"
+            android:id="@+id/kindname"
+            android:textSize="40sp"
+            android:padding="10dp"
+            android:text="专题名字" />
+    </RelativeLayout>
+
+
+</LinearLayout>

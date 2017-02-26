@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66ccff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey2">#66ccff</color>
+    <color name="grey1">#66ccff</color>
+    <color name="green">#4b6e70</color>
+    <color name="color_tag_text_normal">#000000</color>
+    <color name="color_tag_text_activated">#00ff00</color>
+    <color name="color_addtag_text_normal">#00ff00</color>
+    <color name="color_addtag_text_activated">#ffffff</color>
+</resources>

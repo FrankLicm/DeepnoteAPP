@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/letter"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/userLieanerLayout">
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="用户名"
+                    android:textColor="@color/grey2"
+                    android:id="@+id/luser"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableLeft="@drawable/user"
+                    android:drawablePadding="10dp"
+                    />
+            </android.support.design.widget.CoordinatorLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/lpswd"
+                    android:drawableLeft="@drawable/password"
+                    android:hint="密    码"
+                    android:textColor="@color/grey2"
+                    android:layout_gravity="center_horizontal"
+                    android:drawablePadding="10dp"
+
+                    />
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/lvfcdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+               <!--- <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="验证码"
+                    android:textColor="@color/grey2"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/lvfcde"
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="看不清"
+                    android:layout_gravity="right"
+                    android:id="@+id/rebutton"
+                    android:layout_marginRight="10dp"/>-->
+            </android.support.design.widget.CoordinatorLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+        <ImageButton
+            android:layout_width="150dp"
+            android:scaleType="fitXY"
+            android:layout_height="70dp"
+            android:src="@drawable/register"
+            android:id="@+id/gobutton"
+            android:background="#00000000"
+            />
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/loginbutton"
+            android:scaleType="fitXY"
+            android:background="#00000000"
+            android:src="@drawable/login" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

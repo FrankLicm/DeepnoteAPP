@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:menuCategory="container">
+        <item
+            android:title=" ">
+
+            <menu>
+                <item
+                    android:id="@+id/firstpage"
+                    android:title="首页" />
+                <item
+                    android:id="@+id/nav_treasure"
+                    android:icon="@drawable/charity"
+                    android:title="我的收藏" />
+                <item
+                    android:id="@+id/nav_draft"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="草稿" />
+                <item
+                    android:id="@+id/nav_finding"
+                    android:icon="@drawable/pigeon"
+                    android:title="发现" />
+            </menu>
+        </item>
+        <item
+            android:title="其他">
+            <menu>
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="设置" />
+                <item
+                    android:id="@+id/nav_logout"
+
+                    android:title="注销" />
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>

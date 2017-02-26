@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="15dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ladies"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_note_title"
+            android:layout_marginLeft="5dp"
+            android:text="那个人"
+
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_username"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="12sp"
+            android:text="阿尔法"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_article"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:shadowColor="@color/grey1"
+            android:text="追风筝的人"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_note_content"
+            android:layout_margin="5dp"
+            android:text="为你，千千万万遍为你，千千万万遍为你，千千万万遍为你，千千万万遍为你，千千万万遍"/>
+    </LinearLayout>
+</LinearLayout>
